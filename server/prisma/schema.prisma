@@ -62,6 +62,7 @@ model Product {
   description String?
   id          String   @id @default(cuid())
   itemPrice   Float?
+  mmm         String?  @unique
   name        String?
   orders      Order[]
   updatedAt   DateTime @updatedAt

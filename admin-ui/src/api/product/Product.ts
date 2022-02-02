@@ -5,6 +5,7 @@ export type Product = {
   description: string | null;
   id: string;
   itemPrice: number | null;
+  mmm: string | null;
   name: string | null;
   orders?: Array<Order>;
   updatedAt: Date;
