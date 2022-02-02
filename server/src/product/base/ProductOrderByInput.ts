@@ -50,6 +50,15 @@ class ProductOrderByInput {
   @Field(() => SortOrder, {
     nullable: true,
   })
+  mmm?: SortOrder;
+
+  @ApiProperty({
+    required: false,
+    enum: ["Asc", "Desc"],
+  })
+  @Field(() => SortOrder, {
+    nullable: true,
+  })
   name?: SortOrder;
 
   @ApiProperty({

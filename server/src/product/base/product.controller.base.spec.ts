@@ -15,6 +15,7 @@ const CREATE_INPUT = {
   description: "exampleDescription",
   id: "exampleId",
   itemPrice: 42.42,
+  mmm: "exampleMmm",
   name: "exampleName",
   updatedAt: new Date(),
 };
@@ -23,6 +24,7 @@ const CREATE_RESULT = {
   description: "exampleDescription",
   id: "exampleId",
   itemPrice: 42.42,
+  mmm: "exampleMmm",
   name: "exampleName",
   updatedAt: new Date(),
 };
@@ -32,6 +34,7 @@ const FIND_MANY_RESULT = [
     description: "exampleDescription",
     id: "exampleId",
     itemPrice: 42.42,
+    mmm: "exampleMmm",
     name: "exampleName",
     updatedAt: new Date(),
   },
@@ -41,6 +44,7 @@ const FIND_ONE_RESULT = {
   description: "exampleDescription",
   id: "exampleId",
   itemPrice: 42.42,
+  mmm: "exampleMmm",
   name: "exampleName",
   updatedAt: new Date(),
 };

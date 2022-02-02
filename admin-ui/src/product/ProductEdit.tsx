@@ -13,6 +13,7 @@ export const ProductEdit = (props: EditProps): React.ReactElement => {
       <SimpleForm>
         <TextInput label="Description" multiline source="description" />
         <NumberInput label="Item Price" source="itemPrice" />
+        <TextInput label="mmm" source="mmm" />
         <TextInput label="Name" source="name" />
       </SimpleForm>
     </Edit>
